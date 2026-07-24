@@ -1,0 +1,31 @@
+{
+  "name": "genpark-mobile-agentic-keyboard-executor-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Mobile agentic keyboard for natural language system action execution.",
+  "author": "genpark",
+  "category": "productivity",
+  "tags": [
+    "mobile-keyboard",
+    "agentic-execution",
+    "action-trigger",
+    "ph-july25"
+  ],
+  "inputs": {
+    "keyboard_input": {
+      "type": "string"
+    },
+    "app_context": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "executed_action": {
+      "type": "string"
+    },
+    "intent_confidence": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
